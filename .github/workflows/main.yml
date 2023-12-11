@@ -12,4 +12,4 @@ jobs:
         uses: lyubick/action-YAML-schema-validator@v3
         with:
           json-schema-file: ./validation/schema.json
-          yaml-json-file-dir: ./data/missing-name.json
+          yaml-json-file-dir: ./data
