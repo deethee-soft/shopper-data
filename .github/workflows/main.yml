@@ -6,8 +6,9 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - run: echo "validation done"
+      - run: echo "checkout done"
       - name: Do validation
+        id: validation
         uses: lyubick/action-YAML-schema-validator@v2
         with:
           json-schema-file: validation/schema.json
