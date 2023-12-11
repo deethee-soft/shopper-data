@@ -7,3 +7,9 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "validation done"
+      - name: Do validation
+        uses: lyubick/action-YAML-schema-validator@v2
+        with:
+          json-schema-file: validation/schema.json
+          yaml-json-file-dir: data
+          recursive: true
