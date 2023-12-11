@@ -1,0 +1,17 @@
+{
+  "title": "SampleJSONSchema",
+  "description": "Just a sample and very simple JSON Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a shop",
+      "type": "string"
+    },
+    "name": {
+      "description": "The name of the shop",
+      "type": "string"
+    }
+  },
+  "required": ["id", "name"]
+}
