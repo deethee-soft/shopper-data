@@ -6,6 +6,12 @@
 
 This Project collects data of (online) shops.
 
+## Credits
+
+### Third-Party Workflow Action
+
+- [YAML/JSON File(s) Validation against JSON Schema](https://github.com/marketplace/actions/yaml-json-validation-against-json-schema)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
