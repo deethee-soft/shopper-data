@@ -11,6 +11,10 @@
     "name": {
       "description": "The name of the shop",
       "type": "string"
+    },
+    "webShop": {
+      "description": "The address of the web shop",
+      "type": "string"
     }
   },
   "required": ["id", "name"]
