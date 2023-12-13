@@ -17,5 +17,5 @@
       "type": "string"
     }
   },
-  "required": ["id", "name", "prop3"]
+  "required": ["id", "name"]
 }
