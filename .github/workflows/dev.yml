@@ -1,0 +1,11 @@
+name: dev
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+    
+jobs:
+  json-validate-job:
+    name: JSON Validation
+    uses: ./.github/workflows/json-validation.yml
+    secrets: inherit
