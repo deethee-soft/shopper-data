@@ -12,8 +12,8 @@
       "description": "The name of the shop",
       "type": "string"
     },
-    "prop3": {
-      "description": "The third property",
+    "webShop": {
+      "description": "The address of the web shop",
       "type": "string"
     }
   },
