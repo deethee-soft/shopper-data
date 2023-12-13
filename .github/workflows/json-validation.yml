@@ -1,0 +1,18 @@
+name: JSON Validation
+
+on:
+  workflow_call:
+
+jobs:
+  json-validate-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: echo "checkout done"
+      - name: Do validation
+        id: validation
+        uses: lyubick/action-YAML-schema-validator@v3
+        with:
+          json-schema-file: ./validation/schema.json
+          yaml-json-file-dir: ./data
