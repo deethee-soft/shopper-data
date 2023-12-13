@@ -11,7 +11,11 @@
     "name": {
       "description": "The name of the shop",
       "type": "string"
+    },
+    "prop3": {
+      "description": "The third property",
+      "type": "string"
     }
   },
-  "required": ["id", "name"]
+  "required": ["id", "name", "prop3"]
 }
