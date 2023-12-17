@@ -8,4 +8,6 @@ jobs:
   json-validate-job:
     name: JSON Validation
     uses: ./.github/workflows/json-validation.yml
+    with:
+      branch: dev
     secrets: inherit
