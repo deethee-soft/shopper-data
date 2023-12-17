@@ -1,11 +1,14 @@
-name: dev
+name: nightly
 
 on:
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 3 * * *'
+  workflow_dispatch:
     
 jobs:
   json-validate-job:
     name: JSON Validation
     uses: ./.github/workflows/json-validation.yml
+    with:
+      branch: dev
     secrets: inherit
