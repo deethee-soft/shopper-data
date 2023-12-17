@@ -14,12 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print the chosen branch to STDOUT
-      - run: echo ${{ inputs.branch }}
+        run: echo ${{ inputs.branch }}
       - name: Check out repository code
         uses: actions/checkout@v3
         with:
           ref: ${{ inputs.branch }}
-      - run: echo "checkout done"
       - name: Do validation
         id: validation
         uses: lyubick/action-YAML-schema-validator@v3
