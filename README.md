@@ -1,6 +1,7 @@
 # shopper-data
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![example workflow](https://github.com/zugch/shopper-data/actions/workflows/main.yml/badge.svg)
+![main](https://github.com/zugch/shopper-data/actions/workflows/main.yml/badge.svg)
+![nightly](https://github.com/zugch/shopper-data/actions/workflows/nightly.yml/badge.svg)
 
 ## Overview
 
