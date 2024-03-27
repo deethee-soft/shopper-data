@@ -21,7 +21,7 @@ jobs:
           ref: ${{ inputs.branch }}
       - name: Do validation
         id: validation
-        uses: lyubick/action-YAML-schema-validator@v3
+        uses: lyubick/action-YAML-schema-validator@v4
         with:
           json-schema-file: ./validation/schema.json
           yaml-json-file-dir: ./data
